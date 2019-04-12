@@ -1,0 +1,9 @@
+platform :ios, '10.0'
+target :'APNSSwift' do
+    use_frameworks!
+
+    pod  'AWSPinpoint', '~> 2.9.0'
+    # other pods
+    pod  'AWSMobileClient'
+    # other pods
+end

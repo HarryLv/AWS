@@ -1,0 +1,33 @@
+{
+    "Version": "0.1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "COGNITO-IDENTITY-POOL-ID",
+                "Region": "COGNITO-IDENTITY-POOL-REGION"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "COGNITO-USER-POOL-ID",
+            "AppClientId": "COGNITO-USER-APP-CLIENT-ID",
+            "AppClientSecret": "COGNITO-USER-POOL-APP-CLIENT-SECRET",
+            "Region": "COGNITO-USER-POOL-REGION"
+        }
+    },
+    "PinpointAnalytics": {
+        "Default": {
+            "AppId": "PINPOINT-APP-ID",
+            "Region": "PINPOINT-REGION"
+        }
+    },
+    "PinpointTargeting": {
+        "Default": {
+            "Region": "PINPOINT-REGION"
+        }
+    }
+}
